@@ -46,6 +46,7 @@ $docker image push akekmitl/product_service:1.0
 $cd ..
 $docker-compose up -d
 $docker-compose ps
+
                    Name                             Command             State              Ports
 --------------------------------------------------------------------------------------------------------
 workshop-depoy-microservice-java_catalog_1   java -jar catalog.jar   Up (healthy)   0.0.0.0:80->8080/tcp
