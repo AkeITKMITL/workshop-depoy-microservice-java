@@ -1,6 +1,6 @@
-[My Docker Hub](https://hub.docker.com/u/somkiat)
+[My Docker Hub](https://hub.docker.com/u/akekmitl)
 
-[![Build Status](https://travis-ci.com/up1/workshop-depoy-microservice-java.svg?branch=master)](https://travis-ci.com/up1/workshop-depoy-microservice-java)
+[![Build Status](https://travis-ci.org/AkeITKMITL/workshop-depoy-microservice-java.svg?branch=master)](https://travis-ci.org/AkeITKMITL/workshop-depoy-microservice-java)
 
 [My catalog service in Google Cloud](http://<ip>:<port>/catalog/1)
 
@@ -34,11 +34,11 @@ $docker image ls
 $docker login
 Login Succeeded
 
-$docker image tag catalog_service:1.0 <username>/catalog_service:1.0
-$docker image push <username>/catalog_service:1.0
+$docker image tag catalog_service:1.0 akekmitl/catalog_service:1.0
+$docker image push akekmitl/catalog_service:1.0
 
-$docker image tag product_service:1.0 <username>/product_service:1.0
-$docker image push <username>/product_service:1.0
+$docker image tag product_service:1.0 akekmitl/product_service:1.0
+$docker image push akekmitl/product_service:1.0
 ```
 
 ## Step 5 :: Deploy container with Docker compose
